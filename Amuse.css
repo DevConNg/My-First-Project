@@ -1,0 +1,248 @@
+:root{
+    --main-white-color:#ffffff;
+    --main-blue-color:#0a3b63;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--main-white-color);
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+.header{
+    width: 100vw;
+    height: 13vh;
+    background-color: var(--main-white-color);
+    box-shadow: 0px 0px 10px 0px rgba(179, 179, 179, 5);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+.Logo {
+    font-size:2.7rem;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+
+li a{
+    text-decoration:none;
+    margin: 1rem;
+    color:black;
+}
+
+.one{
+    width: 100vw;
+    height:80vh;
+    display: flex;
+    align-items: center;
+}
+
+.aside-one{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    color: var(--main-blue-color);
+    margin-left: 40px;
+}
+
+.presale a{
+    width: 230px;
+    height: 60px;
+    padding:15px 0 25px 86px;
+    background-color: var(--main-white-color);
+    border: 1.5px solid var(--main-blue-color);
+    display: flex;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: var(--main-blue-color);
+}
+
+.whitepaper{
+    width: 230px;
+    height: 60px;
+    padding:15px 0 25px 35px;
+    background-color:var(--main-blue-color);
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: var(--main-white-color);
+}
+
+.aside-two{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background{
+    width: 323px;
+    height: 380px;
+    background-color: var(--main-blue-color);
+    border-radius: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img-amuse{
+    margin-left: 89px;
+}
+
+.two{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-blue-color);
+}
+
+.feature{
+    width: 100vw;
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3rem;
+    color: var(--main-white-color);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p-tag{
+    font-size: 1.2rem;
+    padding: 10px 300px;
+    line-height: 2rem;
+}
+
+.hodl-container{
+    width:100vw;
+    height: 65vh;
+    background-color: var(--main-blue-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 32px;
+}
+
+.hodl{
+    width:280px;
+    height:250px;
+    background-color: var(--main-white-color);
+    border-radius: 20px;
+    position: relative;
+    padding: 32px;
+}
+
+.hodl-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 28px;
+    margin-left: 28px;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.trade{
+    width: 280px;
+    height:250px;
+    background-color: var(--main-white-color);
+    border-radius: 20px;
+    position: relative;
+    padding: 32px;
+}
+
+.trade-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 28px;
+    margin-left: 28px;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.stake{
+    width:280px;
+    height:250px;
+    background-color: var(--main-white-color);
+    border-radius: 20px;
+    position: relative;
+    padding: 32px;
+}
+
+.stake-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 28px;
+    margin-left: 28px;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.referral{
+    width:280px;
+    height:250px;
+    background-color: var(--main-white-color);
+    border-radius: 20px;
+    position: relative;
+    padding: 32px;
+}
+
+.referral-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 28px;
+    margin-left: 28px;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.three{
+    width: 100vw;
+    height: 35vh;
+    background-color: green;
+}
+
+.three{
+    margin: 0px -16.6667px 0px 0px;
+    padding: 30px;
+}
+
+.footer {
+    margin: 0px 0px 0px 24px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
